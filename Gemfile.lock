@@ -69,5 +69,4 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  pg
   rails (= 3.0.0)
