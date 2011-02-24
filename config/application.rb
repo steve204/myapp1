@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
+<<<<<<< HEAD
 module MyApp1
+=======
+module Myapp1
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

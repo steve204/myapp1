@@ -158,7 +158,10 @@ The default directory structure of a generated Ruby on Rails application:
   |-- app
   |   |-- controllers
   |   |-- helpers
+<<<<<<< HEAD
   |   |-- mailers
+=======
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
   |   |-- models
   |   `-- views
   |       `-- layouts
@@ -176,6 +179,10 @@ The default directory structure of a generated Ruby on Rails application:
   |   |-- javascripts
   |   `-- stylesheets
   |-- script
+<<<<<<< HEAD
+=======
+  |   `-- performance
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
   |-- test
   |   |-- fixtures
   |   |-- functional

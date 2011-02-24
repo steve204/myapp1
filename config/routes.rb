@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 MyApp1::Application.routes.draw do
   resources :posts
 
+=======
+Myapp1::Application.routes.draw do
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
   get "home/index"
 
   # The priority is based upon order of creation:
@@ -16,6 +20,12 @@ MyApp1::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+<<<<<<< HEAD
+=======
+resources :posts do  
+	resources :comments 
+end 
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
 
   # Sample resource route with options:
   #   resources :products do

@@ -15,6 +15,24 @@
   <%= @post.content %>
 </p>
 
+<<<<<<< HEAD
+=======
+<h2>Add a comment:</h2> 
+<%= form_for([@post, @post.comments.build]) do |f| %>  
+	<%= f.error_messages %>  
+	<div class="field">  
+		<%= f.label :commenter %><br />  
+		<%= f.text_field :commenter %>  
+	</div>  
+	<div class="field">  
+		<%= f.label :body %><br />  
+		<%= f.text_area :body %>  
+	</div>  
+	<div class="actions">  
+		<%= f.submit %>  
+	</div> 
+<% end %> 
+>>>>>>> 5d3c0b602118872729ceaeaf0834e6221a47d92e
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
